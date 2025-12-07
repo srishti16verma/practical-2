@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navigation Menu</title>
+    <style>
+        .header{
+            text-align: center;
+            height: 30px;
+            border: 1px black solid;
+            padding-top: 10px;
+            background-color: rgb(210, 198, 198);
+            margin-left: 5px;
+            margin-right: 5px;
+            border: none;
+        }
+        .header span{
+            color: red;
+        }
+        .inline-block{
+            display: inline-block;
+            background-color: lightblue;
+            margin-top: 10px;
+            margin-left:5px ;
+            color: purple;
+        }
+        .inline-block2{
+            display: inline-block;
+            margin-top: 10px;
+            margin-left:5px ;
+            background-color: greenyellow;
+            color: peru;
+        }
+    </style>   
+</head>
+<body>
+    <header class="header">My <span>Website</span> Navigation</header>
+    <nav style="display: block;">
+        <nav class="inline-block"><a href="" style="text-decoration: none;">Home</a></nav>
+        <nav class="inline-block"><a href="" style="text-decoration: none;">About</a></nav>
+        <nav class="inline-block"><a href="" style="text-decoration: none;">Services</a></nav>
+        <nav class="inline-block"><a href="" style="text-decoration: none;">Content</a></nav>
+    </nav>
+    
+    <nav>
+       <nav class="inline-block2"><a href="" style="text-decoration: none;">Dashboard</a></nav>
+        <nav class="inline-block2"><a href="" style="text-decoration: none;"> Profile</a></nav>
+        <nav class="inline-block2"><a href="" style="text-decoration: none;"> Messages</a></nav>
+        <nav class="inline-block2"><a href="" style="text-decoration: none;">Logout</a></nav> 
+    </nav>
+</body>
+</html>
